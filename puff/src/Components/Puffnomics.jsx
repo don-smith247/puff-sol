@@ -15,7 +15,7 @@ const Puffnomics = () => {
       </div>
       <div className="sulaa">
             <div className="memem">
-              <h2 className=''>Claw in with <br />our Community</h2>
+              <h2 className='hghr'>Claw in with <br />our Community</h2>
               <p>JOIN OUR TELEGRAM AND FOLLOW US ON X FOR THE LATEST UPDATES AND A WARM WELCOME FROM OUR FRIENDLY COMMUNITY. LET’S GLIDE TOWARDS MILLIONAIRES TOGETHER AND ENJOY THE MEME’S AND ARTWORK IN THE PROCESS!</p>
               <div className='icon'>
               <FaSquareXTwitter />
