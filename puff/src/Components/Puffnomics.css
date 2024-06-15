@@ -1,0 +1,182 @@
+.puff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 0px;
+}
+.lp{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bur{
+    width: 180px;
+    height: 230px;
+    background: #E0DEDE;
+    border-radius: 60% / 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #25170E;
+    font-family: "Concert One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+.burr{
+    width: 180px;
+    height: 230px;
+    background: #E0DEDE;
+    border-radius: 60% / 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #25170E;
+    font-family: "Concert One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+.llp{
+    display: flex;
+    gap: 280px;
+    align-items: center;
+}
+.yp{
+    width: 180px;
+    height: 230px;
+    background: #E0DEDE;
+    border-radius: 60% / 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #25170E;
+    font-family: "Concert One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px; 
+}
+.yyp{
+    width: 180px;
+    height: 230px;
+    background: #E0DEDE;
+    border-radius: 60% / 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #25170E;
+    font-family: "Concert One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.memem {
+    position: relative;
+    max-width: 90%; 
+    width: 300px;
+    padding: 40px;
+    background: #E0DEDE;
+    border-radius: 50% 50% 50% 50%;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+
+.memem h2 {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+.memem p {
+    font-size: 10px;
+    color: #666;
+}
+
+.memem:before,
+.memem:after {
+    content: '';
+    position: absolute;
+    background: #E0DEDE;
+    border-radius: 50%;
+}
+
+.memem:before {
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+}
+
+.memem:after {
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+}
+.icon{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .memem {
+        width: 100%;
+        max-width: 250px; 
+        padding: 15px; 
+    }
+
+    .memem:before, .memem:after {
+        width: 80px;
+        height: 80px;
+    }
+
+    .memem h2 {
+        font-size: 1.2em; 
+        font-weight: 800;
+        font-family: "Concert One", sans-serif;
+    }
+
+    .memem p {
+        font-size: 0.8em;
+        font-family: "Concert One", sans-serif;
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+    .bur{
+        width: 100px;
+        height: 150px;
+        font-size: 15px;
+    }
+    .burr{
+        width: 100px;
+        height: 150px;
+        font-size: 10px;
+    }
+    .yp{
+        width: 100px;
+        height: 150px;
+        font-size: 15px;
+    }
+    .yyp{
+        width: 100px;
+        height: 150px;
+        font-size: 12px;
+    }
+    .llp{
+        gap: 150px;
+    }
+}

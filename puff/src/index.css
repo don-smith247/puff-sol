@@ -1,0 +1,9 @@
+
+@font-face {
+  font-family: 'UltimaBlack';
+  src: url('./UltimaBlack.ttf') format('truetype');
+}
+body {
+  font-family: 'UltimaBlack', sans-serif;
+  background: #25170E; 
+}

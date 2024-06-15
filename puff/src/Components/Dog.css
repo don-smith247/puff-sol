@@ -1,0 +1,24 @@
+.first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.pp{
+    color: #FFFFFF;
+    width: 380px;
+    font-family: 'UltimaBlack', sans-serif;
+}
+.ty{
+    color: #D59999;
+    font-family: "Concert One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+.first-div img{
+    width: 390px;
+    height: 450px;
+}
+  
